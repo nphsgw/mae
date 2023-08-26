@@ -1,0 +1,33 @@
+{
+    "name": "pytorch",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--rm",
+        "--shm-size",
+        "10g",
+        "--gpus",
+        "all"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // Python
+                "ms-python.python",
+                "ms-python.flake8",
+                "ms-python.black-formatter",
+                "njpwerner.autodocstring",
+                "ms-python.mypy-type-checker",
+                // Jupyter
+                "ms-toolsai.jupyter",
+                // Git
+                "eamodio.gitlens",
+                "donjayamanne.githistory",
+                // etc
+                "visualstudioexptteam.vscodeintellicode",
+                "github.copilot"
+            ]
+        }
+    }
+}
