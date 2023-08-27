@@ -122,7 +122,7 @@ parser.add_argument("--data_path", default="./data/CIFAR10", type=str, help="dat
 1epoch
 ![output1](https://github.com/nphsgw/mae/assets/13401073/8c484b78-3c54-4f28-af8a-113b1b995b60)
 40epcoh
-![output3](https://github.com/nphsgw/mae/assets/13401073/712c65d9-9e2f-4ad5-ac67-93b368f67914)
+![output2](https://github.com/nphsgw/mae/assets/13401073/6d8a2ad7-2b38-4ed8-ac72-845e882164fc)
 99epoch
 ![output4](https://github.com/nphsgw/mae/assets/13401073/b9ce165e-d3db-42ce-a20d-b39200d93ade)
 
