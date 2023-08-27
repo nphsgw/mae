@@ -117,8 +117,16 @@ parser.add_argument("--input_size", default=32, type=int, help="images input siz
 parser.add_argument("--data_path", default="./data/CIFAR10", type=str, help="dataset path")
 ```
 
----
+## Visualize
+
+1epoch
+![output2](https://github.com/nphsgw/mae/assets/13401073/40949033-a6f3-4661-abfd-6d6537091bf5)
+40epcoh
+![output3](https://github.com/nphsgw/mae/assets/13401073/712c65d9-9e2f-4ad5-ac67-93b368f67914)
+99epoch
+![output4](https://github.com/nphsgw/mae/assets/13401073/b9ce165e-d3db-42ce-a20d-b39200d93ade)
+
 
 For all other details and features, please refer to the original repository's [README](https://github.com/facebookresearch/mae/blob/main/README.md).
 
----
+
