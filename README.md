@@ -98,7 +98,7 @@ util/pos_embed.py
 ```
 
 ## Update exclusively for CIFAR10
-
+main_pretrain.py
 ```python
 transform_train = transforms.Compose(
     [
