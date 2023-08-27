@@ -15,7 +15,7 @@ This fork has been tested and confirmed to work in the following environments:
 
 - **OS**: Ubuntu22.04
 - **GPU**: RTX A4500
-
+- **Docker Image**: pytorch/pytorch:2.0.1-cuda11.7-cudnn8-devel 
 
 ```python
 import torch,torchvision,timm
