@@ -119,6 +119,11 @@ parser.add_argument("--data_path", default="./data/CIFAR10", type=str, help="dat
 
 ## Visualize
 
+Execute.
+```bash
+python main_pretrain.py --epochs 100
+```
+
 1epoch
 ![output1](https://github.com/nphsgw/mae/assets/13401073/8c484b78-3c54-4f28-af8a-113b1b995b60)
 40epcoh
