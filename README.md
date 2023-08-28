@@ -117,12 +117,14 @@ parser.add_argument("--input_size", default=32, type=int, help="images input siz
 parser.add_argument("--data_path", default="./data/CIFAR10", type=str, help="dataset path")
 ```
 
-## Visualize
+## Train
 
 Execute.
 ```bash
 python main_pretrain.py --epochs 100
 ```
+
+## Visualize
 
 1epoch
 ![output1](https://github.com/nphsgw/mae/assets/13401073/8c484b78-3c54-4f28-af8a-113b1b995b60)
